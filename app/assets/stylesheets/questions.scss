@@ -1,3 +1,40 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  height: 100vh;
+  // background-color: #1B95E0;
+  color: rgb(40,40,40);
+  text-align: left;
+}
+.container {
+  width: 600px;
+}
+.question {
+  background-color: #1B95E0;
+
+}
+.question h3 {
+  font-weight: normal;
+}
+.answer {
+  background-color: #C6538C;
+}
+.answer h3 {
+  font-weight: normal;
+}
+.btn {
+  background-color: #1B95E0;
+  border:  none;
+  border-radius: 0px 8px 8px 0px;
+  padding: 11px 10px;
+  color: white;
+  position: relative;
+  left: -4px;
+}
+.form-input {
+  height: 31px;
+  border-radius: 8px 0px 0px 8px;
+  border: solid 1px;
+  border-color: rgb(100,100,100);
+}
